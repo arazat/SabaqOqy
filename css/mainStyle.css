@@ -167,6 +167,28 @@ footer{
 	}
 }
 
+@media (max-device-width: 520px){
+	.corse{
+		border: 1px solid #D3C7FB ;
+		background-color: #3F354A;
+	}
+
+
+	.course:hover{
+
+		border: 0.2px solid #D3C7FB ;
+		background-color: #3F354A ;
+
+		color: wheat;
+
+	}
+	.course:hover .title__course{
+		color: #D3C7FB;
+	}
+}
+
+
+
 @media(max-device-width: 450px){ 
 	.courses {
 	margin:  0   ;
@@ -192,25 +214,25 @@ footer{
 
 }
 
+@media(max-device-width: 400px){ 
+	
+	.course {
+		height: 315px;
+		width: 380px;
 
-@media (max-device-width: 520px){
-	.corse{
-		border: 1px solid #D3C7FB ;
-		background-color: #3F354A;
+	}
+	.title__course {
+		margin: 120px 0 0 0 ;
+		font-size: 30px;
+		
+	}
+	.author {
+		font-size: 24px;
+		margin: 15px 0 0 0 ;
 	}
 
 
-	.course:hover{
-
-		border: 0.2px solid #D3C7FB ;
-		background-color: #3F354A ;
-
-		color: wheat;
-
-	}
-	.course:hover .title__course{
-		color: #D3C7FB;
-	}
 }
+
 
 /* ............... 
