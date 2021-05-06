@@ -81,10 +81,10 @@ main{
 	box-shadow: 0 0 20px #560322;
 }
 .course:first-child{
-	margin:0;
+	margin:0 20px 0 0;
 }
-.course{
-	margin: 0  20px 0 0  ;
+.course:last-child{
+	margin: 0  0 0 20px  ;
 }
 .title__course {
 	margin: 65px 0 0 0 ;
