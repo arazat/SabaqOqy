@@ -80,8 +80,11 @@ main{
 	background-color: #DABDFE;
 	box-shadow: 0 0 20px #560322;
 }
+.course:first-child{
+	margin:0;
+}
 .course{
-	margin: 0 0px 0 20px ;
+	margin: 0  20px 0 0  ;
 }
 .title__course {
 	margin: 65px 0 0 0 ;
