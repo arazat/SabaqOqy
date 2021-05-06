@@ -1,4 +1,3 @@
-Îáíóëåíèå*/
 *{
 	padding: 0;
 	margin: 0;
@@ -81,7 +80,7 @@ main{
 	background-color: #DABDFE;
 	box-shadow: 0 0 20px #560322;
 }
-.course:first-child{
+.course{
 	margin: 0 20px 0 0 ;
 }
 .title__course {
@@ -149,7 +148,7 @@ footer{
 	width: 310px;
 
 	}
-	.course:first-child{
+	.course{
 		margin:0 0  20px  0 ;
 	}
 	.title__course {
@@ -233,3 +232,6 @@ footer{
 
 
 }
+
+
+/* ............... 
