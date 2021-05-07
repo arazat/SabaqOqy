@@ -80,11 +80,8 @@ main{
 	background-color: #DABDFE;
 	box-shadow: 0 0 20px #560322;
 }
-.course:first-child{
-	margin:0 20px 0 0;
-}
-.course:last-child{
-	margin: 0  0 0 20px  ;
+.course{
+	margin: 0 20px 0 0 ;
 }
 .title__course {
 	margin: 65px 0 0 0 ;
@@ -149,11 +146,9 @@ footer{
 	.course {
 	height: 260px;
 	width: 310px;
+	margin:10px ;
+	}
 
-	}
-	.course{
-		margin:0 0  20px  0 ;
-	}
 	.title__course {
 		margin: 100px 0 0 0 ;
 		font-size: 24px;
@@ -193,16 +188,14 @@ footer{
 
 @media(max-device-width: 450px){ 
 	.courses {
-	margin:  0   ;
+	margin: 50px 0 0 0   ;
 	}
 	.course {
 		height: 230px;
 		width: 280px;
 
 	}
-	.course:first-child{
-		margin:0 0 25px  0 ;
-	}
+	
 	.title__course {
 		margin: 90px 0 0 0 ;	
 	}
@@ -231,6 +224,10 @@ footer{
 	.author {
 		font-size: 24px;
 		margin: 15px 0 0 0 ;
+	}
+	.history{
+		margin: 0;
+		padding: 0;
 	}
 
 
